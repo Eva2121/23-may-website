@@ -1,0 +1,32 @@
+.header {
+    background-image: url(../css/img/backgroud.png);
+    width: 1775px;
+    height: 930px;
+}
+
+.main__h1 {
+    color: white;
+}
+
+h1 {
+    font-size: 74px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.header__menu {
+    display: flex;
+    /* flex-direction: column;}  */
+}
+
+.menu__item {
+    text-decoration: none;
+    color: white;
+}
+
+.menu__item:hover {
+    text-decoration: underline;
+}
+
+/* @media (min-width: 500px) {
+    .header{display: flex;} */
