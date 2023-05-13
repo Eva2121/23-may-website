@@ -16,8 +16,8 @@ h1 {
 
 .header__menu {
     display: flex;
-    /* flex-direction: column;}  */
-}
+    flex-direction: column;} 
+
 
 .menu__item {
     text-decoration: none;
@@ -28,5 +28,4 @@ h1 {
     text-decoration: underline;
 }
 
-/* @media (min-width: 500px) {
-    .header{display: flex;} */
+ 
