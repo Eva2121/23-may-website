@@ -5,3 +5,9 @@
     box-sizing: border-box;}
     
 :root{font-family: 'Montserrat', sans-serif;}
+
+img{display: block;
+width: 100%;}
+
+.header__container{max-width: 1200px;
+margin: auto;}

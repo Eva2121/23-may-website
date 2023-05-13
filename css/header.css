@@ -1,6 +1,6 @@
 .header__container {
     background-image: url(../css/img/backgroud.png);
-    width: 1775px;
+    width: 1200px;
     height: 930px;
 }
 
@@ -31,4 +31,7 @@ h1 {
  @media(min-width: 500px) {.header__container {display: flex;}
  
     
-    .header__menu{flex-direction: row;}}
+    .header__menu{flex-direction: row;
+    align-items: center;
+justify-content: space-around;
+flex: 1;}}
