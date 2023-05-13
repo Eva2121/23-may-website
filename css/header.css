@@ -1,4 +1,4 @@
-.header {
+.header__container {
     background-image: url(../css/img/backgroud.png);
     width: 1775px;
     height: 930px;
@@ -28,4 +28,7 @@ h1 {
     text-decoration: underline;
 }
 
+ @media(min-width: 500px) {.header__container {display: flex;}
  
+    
+    .header__menu{flex-direction: row;}}
